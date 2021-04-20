@@ -43,12 +43,5 @@ steps:
     ConnectionType: 'AzureRM'
     azureSubscription: 'Microsoft Azure Internal Consumption(adcb004d-eaae-471a-9341-d5e25a17c8ba)'
     appType: 'webApp'
-    WebAppName: '"$(web_prefix)-$(web_site)-$(web_environment)"'
+    WebAppName: '"$$(web_environment)-$(web_site)-(web_prefix)"'
     packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
