@@ -1,6 +1,9 @@
 # This project is retired, archived, and no longer supported. You are welcome to continue to use and fork the repository.
 
 
+[![Build Status](https://dev.azure.com/laurenwdunlap/aawdStandard/_apis/build/status/modularity.ContosoAir?branchName=master)](https://dev.azure.com/laurenwdunlap/aawdStandard/_build/latest?definitionId=52&branchName=master)
+
+
 # Microsoft.Github CI Demo
 
 Demo website application for Contoso Air.  
