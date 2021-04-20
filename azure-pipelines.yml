@@ -13,9 +13,9 @@ $(build.artifactstagingdirectory)/Templates'
 - task: Npm@1
   displayName: 'npm custom'
   inputs:
-  command: custom
-  verbose: false
-  customCommand: 'install --production'
+    command: custom
+    verbose: false
+    customCommand: 'install --production'
 - task: ArchiveFiles@2
   displayName: 'Archive $(Build.SourcesDirectory)'
   inputs:
